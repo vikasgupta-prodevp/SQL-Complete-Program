@@ -1,0 +1,11 @@
+create database ck;
+use ck;
+create table ckk(id int,name varchar(30),perc float,primary key(id));
+desc ckk;
+insert into ckk values(101,'vikas',22.01);
+select * from ckk;
+insert into ckk values(121,'vikas',22.01);
+insert into ckk values(102,'vishal',23.01);
+insert into ckk values(103,'vaishnavi',24.01);
+truncate table ckk;
+show tables;
